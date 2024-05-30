@@ -1,0 +1,79 @@
+[debug] [2024-05-22T16:22:37.206Z] ----------------------------------------------------------------------
+[debug] [2024-05-22T16:22:37.208Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\H4P0\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-05-22T16:22:37.208Z] CLI Version:   13.10.0
+[debug] [2024-05-22T16:22:37.208Z] Platform:      win32
+[debug] [2024-05-22T16:22:37.208Z] Node Version:  v21.7.1
+[debug] [2024-05-22T16:22:37.208Z] Time:          Wed May 22 2024 18:22:37 GMT+0200 (hora de verano de Europa central)
+[debug] [2024-05-22T16:22:37.209Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-22T16:22:37.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-22T16:22:37.256Z] > authorizing via signed-in user (bboyfercus7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Pibe\Prueba RockTheSport\EventApp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-22T16:22:39.762Z] Using project from CLI flag: eventapp-5a31e
+[debug] [2024-05-22T16:22:39.763Z] > refreshing access token with scopes: []
+[debug] [2024-05-22T16:22:39.764Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-05-22T16:22:39.764Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-22T16:22:39.947Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-05-22T16:22:39.947Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-22T16:22:39.952Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e [none]
+[debug] [2024-05-22T16:22:40.334Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e 200
+[debug] [2024-05-22T16:22:40.334Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e {"projectId":"eventapp-5a31e","projectNumber":"836232824767","displayName":"EventApp","name":"projects/eventapp-5a31e","resources":{"hostingSite":"eventapp-5a31e"},"state":"ACTIVE","etag":"1_a7a9357e-10df-41dd-8c65-3b70e2cf2f0c"}
+[info] i  Using project eventapp-5a31e (EventApp) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-22T16:22:40.339Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e [none]
+[debug] [2024-05-22T16:22:40.560Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e 200
+[debug] [2024-05-22T16:22:40.560Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eventapp-5a31e {"projectId":"eventapp-5a31e","projectNumber":"836232824767","displayName":"EventApp","name":"projects/eventapp-5a31e","resources":{"hostingSite":"eventapp-5a31e"},"state":"ACTIVE","etag":"1_a7a9357e-10df-41dd-8c65-3b70e2cf2f0c"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-05-22T16:24:24.154Z] ----------------------------------------------------------------------
+[debug] [2024-05-22T16:24:24.156Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\H4P0\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-05-22T16:24:24.156Z] CLI Version:   13.10.0
+[debug] [2024-05-22T16:24:24.157Z] Platform:      win32
+[debug] [2024-05-22T16:24:24.157Z] Node Version:  v21.7.1
+[debug] [2024-05-22T16:24:24.157Z] Time:          Wed May 22 2024 18:24:24 GMT+0200 (hora de verano de Europa central)
+[debug] [2024-05-22T16:24:24.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-22T16:24:24.208Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-22T16:24:24.208Z] > authorizing via signed-in user (bboyfercus7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Pibe\Prueba RockTheSport\EventApp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
